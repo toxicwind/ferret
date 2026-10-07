@@ -1,0 +1,3 @@
+#!/bin/sh
+BIN="${PDTM_BIN:-$HOME/.pdtm/go/bin}"
+exec "$BIN/cloudlist" "$@"
